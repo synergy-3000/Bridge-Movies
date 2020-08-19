@@ -124,6 +124,7 @@ class BidsTest {
 		assertTrue(spades[2].isLegal(auction));
 		auction.clear();
 		auction.addAll(List.of(pass,pass,hearts[1]));
+		assertFalse(hearts[1].isLegal(auction));
 		assertFalse(clubs[1].isLegal(auction));
 		assertTrue(spades[1].isLegal(auction));
 		assertTrue(nt[1].isLegal(auction));

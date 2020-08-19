@@ -50,7 +50,7 @@ public class BBOReader {
 	   BBOReader reader = BBOReader.getInstance();
 	   
 	   String path = "C:\\Bridge\\Christine Everingham\\PlayHandsGenerator"; 
-	   String fname = "Lesson10Hands.txt"; 
+	   String fname = "Lesson11Hands.txt"; 
 	   String outname = "testworddatasource.txt";
 	   BufferedReader br;
 	   
