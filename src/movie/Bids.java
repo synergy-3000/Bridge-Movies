@@ -39,7 +39,7 @@ public class Bids {
 	/**
 	 * 
 	 * @param auction
-	 * @return the last bid or null if there isn't one. double & redouble are ignored.
+	 * @return the last bid or null if there isn't one. pass, double & redouble are ignored.
 	 */
 	public static Bid lastBid(Deque<Bid> auction) {
 		Bid ret = null, bid;
@@ -94,7 +94,7 @@ public class Bids {
 		if (lastDir.equals(Dir.EAST) || lastDir.equals(Dir.WEST)) {
 			declarer = E_W;
 		}
-		//System.out.println("Making contract: de");
+		//System.out.println("Making contract: ");
 		return new Contract(declarer,doubled,redoubled,last);
 	}
     static class Pass implements Bid

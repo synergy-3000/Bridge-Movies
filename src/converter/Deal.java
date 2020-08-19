@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 import converter.Card.Rank;
 import converter.Card.Suit;
 
+/* A bridge deal */
 public class Deal {
 	public enum Dir { NORTH, SOUTH, EAST, WEST } // Seat direction
 
